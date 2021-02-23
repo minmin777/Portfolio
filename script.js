@@ -29,7 +29,11 @@ function setTheme(mode){
         cssFile = 'purple.css'
     }
 
+    console.log("1", document.getElementById('theme-style'))
+
     document.getElementById('theme-style').href = cssFile
+
+    console.log("2", document.getElementById('theme-style'))
 
     localStorage.setItem('theme', mode)
 }

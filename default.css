@@ -68,6 +68,10 @@ h6 { font-size: 16px;}
     margin: 0 auto;
 }
 
+.post_content {
+    color: ;
+}
+
 .greeting-wrapper{
     display: grid;
     text-align: center;
@@ -363,6 +367,17 @@ h6 { font-size: 16px;}
 	color: #fff;
 	background-color: var(--buttonColor);
 	border:none;
+}
+
+#download_button {
+    color: #fff;
+	background-color: var(--buttonColor);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+	padding-top: 10px;
+    padding-bottom:10px;
+    width: 10%;
 }
 @media screen and (max-width: 1200px){
     .main-container{
